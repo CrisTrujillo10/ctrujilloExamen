@@ -6,7 +6,7 @@
     <VerticalStackLayout
         Padding="20"
         Spacing="20">
-        <!-- Usuario conectado -->
+
         <Label 
             x:Name="lblUsuarioConectado"
             Text="Usuario conectado: "
@@ -20,7 +20,6 @@
             FontSize="22"
             HorizontalTextAlignment="Center" />
 
-        <!-- Grid para Nombre, Apellido, VA -->
         <Grid>
             <Grid.RowDefinitions>
                 <RowDefinition/>

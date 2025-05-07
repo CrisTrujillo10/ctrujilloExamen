@@ -2,7 +2,8 @@ namespace ctrujilloExamen.Views;
 
 public partial class vResumen : ContentPage
 {
-	public vResumen(string usuario, string nombre, string apellido, string ciudad, DateTime fecha, string va, string inicial, string cuota)
+	public vResumen(string usuario, string nombre, string apellido, 
+        string ciudad, DateTime fecha, string va, string inicial, string cuota)
 	{
 		InitializeComponent();
 

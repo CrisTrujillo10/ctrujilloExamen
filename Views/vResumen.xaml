@@ -12,12 +12,26 @@
             HorizontalOptions="Center"
             TextColor="Orange" />
 
-        <Label x:Name="lblUsuario" FontSize="18" />
-        <Label x:Name="lblNombreCompleto" FontSize="18" />
-        <Label x:Name="lblCiudad" FontSize="18" />
-        <Label x:Name="lblFecha" FontSize="18" />
-        <Label x:Name="lblVA" FontSize="18" />
-        <Label x:Name="lblMontoInicial" FontSize="18" />
-        <Label x:Name="lblCuotaMensual" FontSize="18" />
+        <Label 
+            x:Name="lblUsuario" 
+            FontSize="18" />
+        <Label 
+            x:Name="lblNombreCompleto" 
+            FontSize="18" />
+        <Label 
+            x:Name="lblCiudad" 
+            FontSize="18" />
+        <Label 
+            x:Name="lblFecha" 
+            FontSize="18" />
+        <Label 
+            x:Name="lblVA" 
+            FontSize="18" />
+        <Label 
+            x:Name="lblMontoInicial" 
+            FontSize="18" />
+        <Label 
+            x:Name="lblCuotaMensual" 
+            FontSize="18" />
     </VerticalStackLayout>
 </ContentPage>
