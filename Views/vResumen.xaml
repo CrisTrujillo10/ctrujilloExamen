@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ctrujilloExamen.Views.vResumen"
+             Title="vResumen">
+    <VerticalStackLayout
+        Padding="20"
+        Spacing="20">
+        <Label 
+            Text="Resumen de Registro"
+            FontSize="24"
+            HorizontalOptions="Center"
+            TextColor="DarkGreen" />
+
+        <Label x:Name="lblUsuario" FontSize="18" />
+        <Label x:Name="lblNombreCompleto" FontSize="18" />
+        <Label x:Name="lblCiudad" FontSize="18" />
+        <Label x:Name="lblFecha" FontSize="18" />
+        <Label x:Name="lblVA" FontSize="18" />
+        <Label x:Name="lblMontoInicial" FontSize="18" />
+        <Label x:Name="lblCuotaMensual" FontSize="18" />
+    </VerticalStackLayout>
+</ContentPage>
