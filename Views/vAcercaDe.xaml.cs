@@ -2,7 +2,7 @@ namespace ctrujilloExamen.Views;
 
 public partial class vAcercaDe : ContentPage
 {
-    private Dictionary<string, string> users = new()
+    private Dictionary<string, string> usuarios = new()
     {
         { "estudiante2025", "moviles" },
         { "uisrael", "2025" },
@@ -13,8 +13,8 @@ public partial class vAcercaDe : ContentPage
 		InitializeComponent();
 
         lblUsuario.Text = $"Usuario conectado: {usuario}";
-        lblClave.Text = users.ContainsKey(usuario)
-            ? $"Contraseña: {users[usuario]}"
+        lblClave.Text = usuarios.ContainsKey(usuario)
+            ? $"Contraseña: {usuarios[usuario]}"
             : "Contraseña: [No registrada]";
     }
 }

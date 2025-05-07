@@ -10,7 +10,7 @@
             Text="Resumen de Registro"
             FontSize="24"
             HorizontalOptions="Center"
-            TextColor="DarkGreen" />
+            TextColor="Orange" />
 
         <Label x:Name="lblUsuario" FontSize="18" />
         <Label x:Name="lblNombreCompleto" FontSize="18" />
