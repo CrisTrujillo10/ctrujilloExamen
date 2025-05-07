@@ -39,7 +39,7 @@
                 HorizontalTextAlignment="Center"/>
             <Entry 
                 x:Name="txtNombre" 
-                Placeholder="Ingrese el nombre" 
+                Placeholder="NOMBRE" 
                 Grid.Row="1" 
                 Grid.Column="0"/>
 
@@ -51,7 +51,7 @@
                 HorizontalTextAlignment="Center"/>
             <Entry 
                 x:Name="txtApellido" 
-                Placeholder="Ingrese el apellido" 
+                Placeholder="APELLIDO" 
                 Grid.Row="1" 
                 Grid.Column="1"/>
 
@@ -96,7 +96,7 @@
 
             <Label 
                 Text="CIUDAD" 
-                   Grid.Row="1" 
+                Grid.Row="1" 
                 Grid.Column="0" 
                 FontSize="18"/>
             <Picker 
@@ -114,8 +114,9 @@
                    FontSize="18"/>
             <Entry 
                 x:Name="txtMontoInicial" 
-                Grid.Row="2" Grid.Column="1" 
-                Placeholder="Ej: 45" 
+                Grid.Row="2" 
+                Grid.Column="1" 
+                Placeholder="INGRESE EL MONTO INICIAL" 
                 Keyboard="Numeric"/>
 
             <Label 
